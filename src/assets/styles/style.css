@@ -1,0 +1,57 @@
+/* Body BAckground Style */
+body
+{
+    background-color: rgb(240, 240, 240);
+}
+
+/* Course Cards style */
+.card:hover 
+{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Link style */
+.link
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.link:hover 
+{
+    color: rgb(17, 161, 22);
+    text-shadow: 0 0 15px rgba(17, 161, 22, 0.4);
+}
+
+/* Know More link style */
+.know-more-link
+{
+    color: black;
+}
+
+.know-more-link:hover 
+{
+    color: rgb(0, 0, 255);
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width:576px) {
+    .link
+    {
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .link:hover
+    {
+        text-decoration: underline;
+    }
+}
+
+
